@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:300|Robot:300');
+
+body {
+    display: block;
+}
+
+#header {
+    width:800px;
+    height:90px;
+    background-color: #6f8cae;
+    display: flex;
+    color: #fff;
+    font-family: 'Robot', sans-serif;
+    font-size: 16px;
+    display: flex;
+}
+
+.similar-top-column {
+    width:20%;
+    background-color: #647f9e;
+    margin:2.5px;
+    color:#f0fefe
+}
+
+.similar-top-column:first-child {
+    background-color: #98b5d3;
+}
+
+.text-top-row {
+    font-size:13px;
+    font-weight: bold;
+    padding-top:15px;
+    padding-left:7px;
+}
+
+.text-bottom-row {
+    font-family: 'Teko', sans-serif;
+    font-size:35px;
+    padding-left:7px;
+}
+
+.litera-color {
+    color:#aaeaf1;
+}
+
+.column-symbol {
+    color:#aaeaf1;
+    float:right;
+    padding-left:20px;
+}
