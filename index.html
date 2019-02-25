@@ -8,38 +8,107 @@
     <title>SpaceX</title>
 </head>
 <body>
+    <!-- HEADER -->
     <div id="header">
-        <div class="similar-top-column">
-            <div class="text-top-row">
-                Crew
+        <div class="header-column">
+            <div class="column-top-row">
+                <p>Crew</p>
             </div>
-            <div class="text-bottom-row">
+            <div class="column-bottom-row">
                 DRAGON
             </div>
         </div>
-        <div class="similar-top-column">
-            <div class="text-top-row">
-                Perige
+        <div class="header-column">
+            <div class="column-top-row">
+                <p>Perigee</p>
             </div>
-            <div class="text-bottom-row">
+            <div class="column-bottom-row">
                 185.013<span class="litera-color">m</span>
-                <div class="column-symbol">
-                    ↓
-                </div>
+                <div class="column-arrow"></div>
             </div>
         </div>
-        <div class="similar-top-column">
-
+        <div class="header-column">
+            <div class="column-top-row">
+                <p>Apogee</p>
+            </div>
+            <div class="column-bottom-row">
+                360.304<span class="litera-color">m</span>
+                <div class="column-arrow"></div>
+            </div>
         </div>
-        <div class="similar-top-column">
-            
+        <div class="header-column">
+                <div class="column-top-row">
+                    <p>Apogee</p>
+                </div>
+                <div class="column-bottom-row">
+                    360.304<span class="litera-color">m</span>
+                    <p class="column-arrow-2">↓</p>
+                </div>
         </div>
-        <div class="similar-top-column">
-
+        <div class="header-column">
+            <div class="column-top-row">
+                <p>Apogee</p>
+            </div>
+            <div class="column-bottom-row">
+                360.304<span class="litera-color">m</span>
+                <p class="column-arrow-2">↓</p>
+            </div>
         </div>
     </div>
+
+    <!-- IMAGE -->
+
     <div class="planet">
-
+        <img src="https://cdn.theatlantic.com/assets/media/img/mt/2018/08/iss050e066094_large/lead_720_405.jpg?mod=1535549776" width="800px;"/>
     </div>
+
+    <!-- FIRST PANNEL -->
+
+    <div class="first-panel">
+        <div class="first-panel-column">
+            <p class="first-panel-day">Day 131</p>
+            <p class="first-panel-time">13:46:11</p>
+        </div>
+        <div class="first-panel-column">
+            <div class="first-panel-graph">
+                <img src="../SpaceX_information_panel/img/graph.png" alt="graph" class="graph-image">
+            </div>
+        </div>
+        <div class="first-panel-column">
+            <div class="burn-status">
+                <p class="burn">Next Burn <span class="enabled-burn">Enabled</span></p>
+            </div>
+            <div class="burn-start-time">
+                <p class="burn-time">-0:05:48</p>
+            </div>
+            <div class="burn-date">
+                <p>13:52:00 <span class="burn-day">DAY 131</span></p>
+            </div>
+        </div>
+        <div class="first-panel-column">
+            <p class="target">Target ΔV</p>
+            <p class="target-speed">33.5 m/s</p>
+            <p class="thruster-temps">Thruster Temps</p>
+        </div>
+    </div>
+    <div class="system-check">
+        <div class="system-status">
+            <p class="alarms-quantity">0</p><p class="alarms-alert">ALARMS</p>
+            <p class="alert-status">ALL SYSTEMS NOMINAL <span class="check-status">✓</span></p>
+        </div>
+    </div>
+    <!-- <div id="rendezvous"class="container">
+        <div class="row row-double-header">
+            <div class="">Rendezvous</div>
+            <div>Approach</div>
+        </div>
+        <div class="row"></div>
+        <div id="progress" class="row">
+            <div id="progress-value">
+
+            </div>
+        </div>
+    </div> -->
+
 </body>
 </html>

@@ -4,47 +4,251 @@ body {
     display: block;
 }
 
+p {
+    margin:0;
+    font-family: 'Robot', sans-serif;
+}
+
 #header {
-    width:800px;
+    width: 800px;
     height:90px;
     background-color: #6f8cae;
     display: flex;
     color: #fff;
     font-family: 'Robot', sans-serif;
     font-size: 16px;
-    display: flex;
 }
 
-.similar-top-column {
-    width:20%;
+.header-column {
     background-color: #647f9e;
     margin:2.5px;
-    color:#f0fefe
+    color:#f0fefe;
+    width:20%;
+    padding-left:10px;
 }
 
-.similar-top-column:first-child {
+.header-column:first-child {
     background-color: #98b5d3;
 }
 
-.text-top-row {
+.column-top-row {
     font-size:13px;
     font-weight: bold;
     padding-top:15px;
     padding-left:7px;
 }
 
-.text-bottom-row {
+.column-bottom-row {
     font-family: 'Teko', sans-serif;
     font-size:35px;
-    padding-left:7px;
+    padding: 5px 0px 0px 5px;
 }
+
+.team-name {
+    margin-top:-5px;
+}
+
 
 .litera-color {
     color:#aaeaf1;
 }
 
-.column-symbol {
-    color:#aaeaf1;
-    float:right;
-    padding-left:20px;
+.column-arrow {
+    background-color: #aaeaf1;
+    height: 5px;
+    width: 20px;
+    margin-top: -65px;
+    margin-left: 101px;
 }
+
+.column-arrow-2 { 
+    font-size: 35px;
+    color: #aaeaf1;
+    margin-left: 107px;
+    margin-top: -70px;
+}
+
+/* END OF HEADER */
+
+.planet {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*  */
+
+  .first-panel {
+    width: 800px;
+    background-color: #6f8cae;
+    display: flex;
+    font-size: 13px;
+  }
+
+  .first-panel-column {
+    background: #6b87a8;
+    width:25%;
+    height:120px;
+    margin:2.5px;
+    color:#f0fefe;
+  }
+
+  .first-panel-column:first-child {
+      width:35%;
+      background: #637f9e;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .first-panel-day {
+    font-weight:bold;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .first-panel-time {
+    font-size:65px;
+    font-family: 'Teko', sans-serif;
+    padding-left:25px;
+  }
+
+  .graph-image {
+      width:100%;
+      height:120px;
+  }
+
+  .burn-status {
+      color:#b5c8d3;
+      font-weight: bold;
+      padding:15px 0px 0px 15px;
+  }
+
+  .enabled-burn {
+      color:rgb(177,235,241);
+      padding-left:15px;
+  }
+  .enabled-burn:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: rgb(177,235,241);
+    border-radius: 50%;
+    margin-left: 4px;
+  }
+
+  .burn-time {
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    padding-left:10px;
+  }
+
+  .burn-date {
+    color:#b5c8d3;
+    font-weight: bold;
+    font-size:13px;
+  }
+
+  .burn-day {
+      font-size:13px;
+      padding-left:15px;
+  }
+
+  .burn-date {
+    margin-top: -10px;
+    padding-left: 30px;
+  }
+
+  .target {
+      color:#b5c8d2;
+      padding:15px 0px 0px 15px;
+      font-weight:bold;
+  }
+  
+  .target-speed {
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    padding-left:20px;
+  }
+
+  .thruster-temps {
+    color:rgb(177,235,241);
+    font-weight:bold;
+    padding-left:20px;
+    margin-top:-11px;
+  }
+
+  .system-check {
+    width: 800px;
+    background-color: #6f8cae;
+    display: flex;
+  }
+
+  .system-status {
+      display:flex;
+      width:800px;
+      margin:2.5px;
+      background: #6480a0;
+      color:#c8eef1;
+      font-weight:bold;
+      height:80px;
+  }
+
+.alarms-quantity {
+    font-size: 45px;
+    font-weight: lighter;
+    padding-top:15px;
+    padding-left:15px;
+}
+
+.alarms-alert {
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.alert-status {
+    padding-left: 380px;
+    font-size: 20px;
+    padding-top:15px;
+}
+
+.check-status {
+    font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .container {
+      width:800px;
+      background: red;
+      font-family: 'Roboto', sans-serif;
+      font-size:16px;
+      background: rgb(116,140,171);
+      color:#fff;
+  }
+ 
+  .row.row-double-header {
+    display:flex;
+    flex-grow:1;
+}
+  #progress-value {
+      background: #a2edf2;
+      width:30%;
+      height:20px;
+      transition: all 1s;
+  }
+
+  .row.row-double-header {
+      display:flex;
+  }
+
