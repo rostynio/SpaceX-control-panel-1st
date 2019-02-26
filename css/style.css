@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Teko:300|Robot:300');
 
 body {
-    display: block;
 }
 
+.wrapper {
+    width:800px;
+    margin:0 auto;
+}
 p {
     margin:0;
     font-family: 'Robot', sans-serif;
@@ -321,43 +324,300 @@ p {
     font-weight:bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .container {
-      width:800px;
-      background: red;
-      font-family: 'Roboto', sans-serif;
-      font-size:16px;
-      background: rgb(116,140,171);
-      color:#fff;
-  }
- 
-  .row.row-double-header {
-    display:flex;
-    flex-grow:1;
+.second-alert {
+    color:#f0fefe;
+    padding-left:22px;
+    padding-top:20px;
 }
-  #progress-value {
-      background: #a2edf2;
-      width:30%;
-      height:20px;
-      transition: all 1s;
-  }
 
-  .row.row-double-header {
-      display:flex;
-  }
+.second-status {
+    color: #f0fefe;
+    font-size: 14px;
+    padding-left: 563px;
+    padding-top:6px;
+}
 
+.second-check {
+    height:60px;
+}
+
+.sheldule {
+    width: 800px;
+    background-color: #6f8cae;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.sheldule-row {
+    width:100%;
+    height:40px;
+    margin-left:2.5px;
+    margin-right:2.5px;
+    background: #6480a0;
+    display:flex;
+    padding-top:13px;
+    padding-left:20px;
+}
+
+
+.sheldule-time {
+    font-family: 'Teko', sans-serif;
+    color:#d5ebeb;
+    font-size:25px;
+}
+.sheldule-description {
+    padding-left:100px; 
+    width:220px;
+    color:#bacdda;
+    font-weight: bold;
+    font-size:15px;
+
+}
+
+.sheldule-team {
+    padding-left:335px; 
+    color:#bacdda;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.first-arrow {
+    position: relative;
+}
+
+.main-arrow {
+    position: absolute;
+    width: 24px;
+    left: 127px;
+    top: 10px;
+    height: 199px;
+}
+
+.sheldule-line {
+    height: 4px;
+    background-color: #526c88;
+    width: 615px;
+    margin-left: 171px;
+    margin-top: -8px
+}
+
+.second-description {
+    width:235px;
+}
+
+.top-priority-row {
+    margin-top:2.5px;
+}
+
+.second-priority-row {
+    margin-bottom:2.5px;
+}
+
+.bottom-stats {
+    width:800px;
+    display: flex;
+    flex-wrap:wrap;
+    background: #6f8cae;
+}
+
+.bottom-wrapper {
+    width:100%;
+    margin:2.5px;
+    background: #83a0c6;
+    display:flex;
+}
+.bottom-rendevouz {
+    width:60%;
+    border-right: 3px solid #6f8cae;
+    padding: 10px 21px;
+}
+
+.bottom-approach {
+    width: 32%;
+    text-align: right;
+    padding: 10px 10px 0px 0px;
+}
+
+.bottom-approach, .bottom-rendevouz {
+    font-weight: bold;
+    color:#f0fefe;
+}
+
+
+.main-table {
+    width:800px;
+    background: #83a0c6;
+    font-family: 'Roboto',sans-serif;
+    position:relative;
+}
+
+.table-row {
+    background: #6581a1;
+    display:flex;
+    width:100%;
+}
+
+.row-cell {
+    flex-basis:10%;
+    border-right:3px solid #577098;
+    border-bottom:3px solid #577098;
+    padding:10px 12px;
+    color:#f0fefe;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.row-block {
+    position: absolute;
+    height: 21px;
+    margin-top: 7px;
+    background: #97b6db;
+}
+
+.b-1 {
+    width: 21px;
+    left: 13%;
+}
+
+.b-2 {
+    width: 17px;
+    left: 23%;
+}
+
+.b-3 {
+    width: 16px;
+    left: 43%;
+}
+
+.b-4 {
+    width: 18px;
+    left: 54%;
+}
+
+.b-5 {
+    width: 18px;
+    left: 64%;
+}
+
+.b-6 {
+    width: 17px;
+    left: 84%;
+}
+
+.b-7 {
+    width: 15px;
+    left: 97%;
+}
+
+.b-8 {
+    width: 45px;
+    left: 11%;
+}
+
+.b-9 {
+    width: 51px;
+    left: 18%;
+}
+
+.b-10 {
+    width: 61px;
+    left: 31%;
+    background: #a2edf2;
+}
+
+.b-11 {
+    width: 38px;
+    left: 51%;
+}
+
+.b-12 {
+    width: 41px;
+    left: 71%;
+}
+
+.b-13 {
+    width: 8px;
+    left: 81%;
+}
+
+.b-14 {
+    width: 53px;
+    left: 91%;
+}
+
+.b-15 {
+    width: 61px;
+    left: 11%;
+}
+
+.b-16 {
+    width: 38px;
+    left: 33%;
+}
+
+.b-17 {
+    width: 41px;
+    left: 71%;
+}
+
+.b-18 {
+    width: 8px;
+    left: 81%;
+}
+
+.b-19 {
+    width: 53px;
+    left: 87%;
+}
+
+.b-20 {
+    width: 8px;
+    left: 55%;
+}
+
+.b-21 {
+    width: 53px;
+    left: 61%;
+}
+
+.graph-line {
+    height: 221px;
+    width: 3px;
+    background: #a2edf2;
+    position: absolute;
+    top: 0px;
+    left: 277px;
+}
+
+.last-row {
+    height:5px;
+}
+
+.last-row-cell {
+    padding: 0;
+    border-bottom: none;
+}
+
+.timeline-row {
+    display: flex;
+    background: #6581a1;
+}
+
+.all-time {
+    width: 15px;
+    padding-left: 65px;
+    color:#f0fef6;
+    font-family: 'Teko', sans-serif;
+}
+
+.status-row {
+    background: #97b6db;
+    width:100%;
+    display: flex;
+}
+
+.blue-status {
+    width:25%;
+    height:37px;
+    background: #a2edf2;
+}

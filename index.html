@@ -8,134 +8,318 @@
     <title>SpaceX</title>
 </head>
 <body>
-    <!-- HEADER -->
-    <div id="header">
-        <div class="header-column">
-            <div class="column-top-row">
-                <p>Crew</p>
-            </div>
-            <div class="column-bottom-row">
-                DRAGON
-            </div>
-        </div>
-        <div class="header-column">
-            <div class="column-top-row">
-                <p>Perigee</p>
-            </div>
-            <div class="column-bottom-row">
-                185.013<span class="litera-color">m</span>
-                <div class="column-arrow"></div>
-            </div>
-        </div>
-        <div class="header-column">
-            <div class="column-top-row">
-                <p>Apogee</p>
-            </div>
-            <div class="column-bottom-row">
-                360.304<span class="litera-color">m</span>
-                <div class="column-arrow"></div>
-            </div>
-        </div>
-        <div class="header-column">
+    <div class="wrapper">
+        <div id="header">
+            <div class="header-column">
                 <div class="column-top-row">
-                    <p>Relative Altitude</p>
+                    <p>Crew</p>
                 </div>
                 <div class="column-bottom-row">
-                    50.948<span class="litera-color">m</span>
+                    DRAGON
+                </div>
+            </div>
+            <div class="header-column">
+                <div class="column-top-row">
+                    <p>Perigee</p>
+                </div>
+                <div class="column-bottom-row">
+                    185.013<span class="litera-color">m</span>
+                    <div class="column-arrow"></div>
+                </div>
+            </div>
+            <div class="header-column">
+                <div class="column-top-row">
+                    <p>Apogee</p>
+                </div>
+                <div class="column-bottom-row">
+                    360.304<span class="litera-color">m</span>
+                    <div class="column-arrow"></div>
+                </div>
+            </div>
+            <div class="header-column">
+                    <div class="column-top-row">
+                        <p>Relative Altitude</p>
+                    </div>
+                    <div class="column-bottom-row">
+                        50.948<span class="litera-color">m</span>
+                        <p class="column-arrow-2">↓</p>
+                    </div>
+            </div>
+            <div class="header-column">
+                <div class="column-top-row">
+                    <p>Range to ISS</p>
+                </div>
+                <div class="column-bottom-row">
+                    625.713<span class="litera-color">m</span>
                     <p class="column-arrow-2">↓</p>
                 </div>
-        </div>
-        <div class="header-column">
-            <div class="column-top-row">
-                <p>Range to ISS</p>
-            </div>
-            <div class="column-bottom-row">
-                625.713<span class="litera-color">m</span>
-                <p class="column-arrow-2">↓</p>
             </div>
         </div>
-    </div>
-    <!-- IMAGE -->
-    <div class="planet">
-        <img src="https://cdn.theatlantic.com/assets/media/img/mt/2018/08/iss050e066094_large/lead_720_405.jpg?mod=1535549776" width="800px;"/>
-    </div>
-    <!-- FIRST PANNEL -->
-    <div class="first-panel">
-        <div class="first-panel-column">
-            <p class="first-panel-day">Day 131</p>
-            <p class="first-panel-time">13:46:11</p>
+        <!-- IMAGE -->
+        <div class="planet">
+            <img src="https://cdn.theatlantic.com/assets/media/img/mt/2018/08/iss050e066094_large/lead_720_405.jpg?mod=1535549776" width="800px;"/>
         </div>
-        <div class="first-panel-column">
-            <div class="first-panel-graph">
-                <img src="./img/graph.png" alt="graph" class="graph-image">
+        <!-- FIRST PANNEL -->
+        <div class="first-panel">
+            <div class="first-panel-column">
+                <p class="first-panel-day">Day 131</p>
+                <p class="first-panel-time">13:46:11</p>
             </div>
-        </div>
-        <div class="first-panel-column">
-            <div class="burn-status">
-                <p class="burn">Next Burn <span class="enabled-burn">Enabled</span></p>
-            </div>
-            <div class="burn-start-time">
-                <p class="burn-time">-0:05:48</p>
-            </div>
-            <div class="burn-date">
-                <p>13:52:00 <span class="burn-day">DAY 131</span></p>
-            </div>
-        </div>
-        <div class="first-panel-column">
-            <p class="target">Target ΔV</p>
-            <p class="target-speed">33.5 m/s</p>
-            <p class="thruster-temps">Thruster Temps</p>
-        </div>
-    </div>
-    <!-- SYSTEM CHECK -->
-    <div class="system-check">
-        <div class="system-status">
-            <p class="alarms-quantity">0</p><p class="alarms-alert">ALARMS</p>
-            <p class="alert-status">ALL SYSTEMS NOMINAL <span class="check-status">✓</span></p>
-        </div>
-    </div>
-    <!-- SYSTEM TIMING -->
-    <div class="system-timing">   
-        <div class="system-timing-left">
-            <div class="timing-column">
-                <p class="timing-time">-0:08:24</p>
-                <p class="timing-description">Next LOS <br> (00:03:17)</p>
-                <p class="timing-date">13:54:36 <br> <span class="timing-day-number">DAY 131</span></p>
-            </div>
-            <div class="timing-column">
-                <p class="timing-time">-02:51:02</p>
-                <p class="timing-description">Estimated ISS Arrival</p>
-                <p class="timing-date second-row">13:54:36 <br> <span class="timing-day-number">DAY 131</span></p>
-            </div>
-        </div>
-        <div class="system-timing-right">
-            <div class="timing-column-right">
-                <div class="timing-column-third">
-                    <p class="timing-time">-0:23:23</p>
-                    <p class="timing-description">Next Deorbit Window<br>Pacific</p>
-                    <p class="timing-date third-row">14:09:36 <br> <span class="timing-day-number">DAY 131</span></p>
-                </div>
-                <div class="timing-line">
-                </div>
-                <div class="breakout">
-                    <p class="timing-breakout">Current Breakout <br> <span class="retrograde">Retrograde</span></p>
-                    <p class=retrograde-number>ΔV = 5.0 m/s</p>
+            <div class="first-panel-column">
+                <div class="first-panel-graph">
+                    <img src="./img/graph.png" alt="graph" class="graph-image">
                 </div>
             </div>
+            <div class="first-panel-column">
+                <div class="burn-status">
+                    <p class="burn">Next Burn <span class="enabled-burn">Enabled</span></p>
+                </div>
+                <div class="burn-start-time">
+                    <p class="burn-time">-0:05:48</p>
+                </div>
+                <div class="burn-date">
+                    <p>13:52:00 <span class="burn-day">DAY 131</span></p>
+                </div>
+            </div>
+            <div class="first-panel-column">
+                <p class="target">Target ΔV</p>
+                <p class="target-speed">33.5 m/s</p>
+                <p class="thruster-temps">Thruster Temps</p>
+            </div>
         </div>
-    </div>     
-    <!-- <div id="rendezvous"class="container">
-        <div class="row row-double-header">
-            <div class="">Rendezvous</div>
-            <div>Approach</div>
+        <!-- SYSTEM CHECK -->
+        <div class="system-check">
+            <div class="system-status">
+                <p class="alarms-quantity">0</p><p class="alarms-alert">ALARMS</p>
+                <p class="alert-status">ALL SYSTEMS NOMINAL <span class="check-status">✓</span></p>
+            </div>
         </div>
-        <div class="row"></div>
-        <div id="progress" class="row">
-            <div id="progress-value">
+        <!-- SYSTEM TIMING -->
+        <div class="system-timing">   
+            <div class="system-timing-left">
+                <div class="timing-column">
+                    <p class="timing-time">-0:08:24</p>
+                    <p class="timing-description">Next LOS <br> (00:03:17)</p>
+                    <p class="timing-date">13:54:36 <br> <span class="timing-day-number">DAY 131</span></p>
+                </div>
+                <div class="timing-column">
+                    <p class="timing-time">-02:51:02</p>
+                    <p class="timing-description">Estimated ISS Arrival</p>
+                    <p class="timing-date second-row">13:54:36 <br> <span class="timing-day-number">DAY 131</span></p>
+                </div>
+            </div>
+            <div class="system-timing-right">
+                <div class="timing-column-right">
+                    <div class="timing-column-third">
+                        <p class="timing-time">-0:23:23</p>
+                        <p class="timing-description">Next Deorbit Window<br>Pacific</p>
+                        <p class="timing-date third-row">14:09:36 <br> <span class="timing-day-number">DAY 131</span></p>
+                    </div>
+                    <div class="timing-line">
+                    </div>
+                    <div class="breakout">
+                        <p class="timing-breakout">Current Breakout <br> <span class="retrograde">Retrograde</span></p>
+                        <p class=retrograde-number>ΔV = 5.0 m/s</p>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <!--  System check -->
+        <div class="system-check">
+            <div class="system-status second-check">
+                <p class="alarms-alert second-alert">Sheldule</p>
+                <p class="alert-status second-status">ALL EVENTS<span class="check-status">✓</span></p>
+            </div>
+        </div>
+        <!-- Sheldule -->
+        <div class="sheldule">
+                <div class="first-arrow"><img src="./img/arrow1.png" alt="arrow" class="main-arrow"></div>
+            <div class="sheldule-row top-priority-row">
+                <p class="sheldule-time">13:10:00</p>
+                <p class="sheldule-description">Rendezvous Burn GO/NO-GO</p>
+                <p class="sheldule-team">Ground</p>
+            </div>
+            <div class="sheldule-line">
 
             </div>
+            <div class="sheldule-row">
+                <p class="sheldule-time">13:37:00</p>
+                <p class="sheldule-description second-description">Prepare for rendezvous burn</p>
+                <p class="sheldule-team">Crew</p>
+            </div>
+            <div class="sheldule-line">
+                
+                </div>
+            <div class="sheldule-row">
+                    <p class="sheldule-time">13:46:45</p>
+                    <p class="sheldule-description">Rendezvous burn slow</p>
+                    <p class="sheldule-team">Dragon</p>
+            </div>
+            <div class="sheldule-line">
+                
+                </div>
+            <div class="sheldule-row second-priority-row">
+                    <p class="sheldule-time">13:52:55</p>
+                    <p class="sheldule-description"> Rendezvous Burn</p>
+                    <p class="sheldule-team">Dragon</p>
+            </div>
         </div>
-    </div> -->
+        <!-- Bootom table -->
+        <div class="bottom-stats">
+            <div class="bottom-wrapper">
+                <p class="bottom-rendevouz">Rendezvous</p>
+                <p class="bottom-approach">Approach</p>
+            </div>
+        </div>
+        <!-- Bottom table -->
+        <div class="main-table">
+            <div class="table-row">
+                <div class="row-cell">Ground</div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-cell"></div>
+                <div class="row-block b-1"></div>
+                <div class="row-block b-2"></div>
+                <div class="row-block b-3"></div>
+                <div class="row-block b-4 "></div>
+                <div class="row-block b-5"></div>
+                <div class="row-block b-6 "></div>
+                <div class="row-block b-7"></div>
+            </div>
+            <div class="table-row">
+                    <div class="row-cell">TDRS</div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                   <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-block b-8"></div>
+                    <div class="row-block b-9"></div>
+                    <div class="row-block b-10"></div>
+                    <div class="row-block b-11"></div>
+                    <div class="row-block b-12"></div>
+                    <div class="row-block b-13"></div>
+                    <div class="row-block b-14"></div>
+            </div>
+            <div class="table-row">
+                    <div class="row-cell">ISS</div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-cell"></div>
+                    <div class="row-block b-15"></div>
+                    <div class="row-block b-16"></div>
+                    <div class="row-block b-17"></div>
+                    <div class="row-block b-18"></div>
+                    <div class="row-block b-19"></div>
+                    <div class="row-block b-20"></div>
+                    <div class="row-block b-21"></div>
+                </div>
+                <div class="table-row">
+                        <div class="row-cell">Eclipse</div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-block b-1"></div>
+                        <div class="row-block b-2"></div>
+                        <div class="row-block b-3"></div>
+                        <div class="row-block b-4 "></div>
+                        <div class="row-block b-5"></div>
+                        <div class="row-block b-6 "></div>
+                        <div class="row-block b-7"></div>
+                </div>
+                <div class="table-row">
+                        <div class="row-cell">Burn</div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                        <div class="row-block b-1"></div>
+                        <div class="row-block b-2"></div>
+                        <div class="row-block b-3"></div>
+                        <div class="row-block b-4 "></div>
+                        <div class="row-block b-5"></div>
+                        <div class="row-block b-6 "></div>
+                        <div class="row-block b-7"></div>
+                </div>
+                <div class="table-row">
+                        <div class="row-cell">Crew</div>
+                        <div class="row-cell"></div>
+                        <div class="row-cell"></div>
+                            <div class="row-cell"></div>
+                           <div class="row-cell"></div>
+                            <div class="row-cell"></div>
+                            <div class="row-cell"></div>
+                            <div class="row-cell"></div>
+                            <div class="row-cell"></div>
+                            <div class="row-cell"></div>
+                            <div class="row-block b-1"></div>
+                            <div class="row-block b-2"></div>
+                            <div class="row-block b-3"></div>
+                            <div class="row-block b-4 "></div>
+                            <div class="row-block b-5"></div>
+                            <div class="row-block b-6 "></div>
+                            <div class="row-block b-7"></div>
+                </div>
+                <div class="table-row last-row">
+                        <div class="row-cell last-row-cell"></div>
+                        <div class="row-cell last-row-cell"></div>
+                        <div class="row-cell last-row-cell"></div>
+                            <div class="row-cell last-row-cell"></div>
+                           <div class="row-cell last-row-cell"></div>
+                            <div class="row-cell last-row-cell"></div>
+                            <div class="row-cell last-row-cell"></div>
+                            <div class="row-cell last-row-cell"></div>
+                            <div class="row-cell last-row-cell"></div>
+                            <div class="row-cell last-row-cell"></div>
+                </div>
+                <!-- Timeline -->
+                <div class="timeline-row">
+                    <div class="all-time">12:30</div>
+                    <div class="all-time">13:00</div>
+                    <div class="all-time">13:30</div>
+                    <div class="all-time">14:00</div>
+                    <div class="all-time">14:30</div>
+                    <div class="all-time">15:00</div>
+                    <div class="all-time">15:30</div>
+                    <div class="all-time">16:00</div>
+                    <div class="all-time">16:30</div>
+                </div>
+                <div class="graph-line"></div>
+        </div>
+        <!-- Status line  -->
+        <div class="status-row">
+            <div class="blue-status">
+            </div>
+        </div>
+    </div>
+    
 
 </body>
 </html>
